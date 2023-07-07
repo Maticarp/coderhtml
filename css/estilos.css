@@ -1,0 +1,18 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #918888;
+
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav {
+    display:inline;
+    background-color: rgb(240, 240, 240);
+}
+
+header nav ul li {
+    display: inline;
+    background-color: honeydew;}
+footer div ul li {display: inline;}
