@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Inicio-Tienda River</title>
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Mi CSS -->
   <link rel="stylesheet" href="./css/estilos.css" />
 </head>
 
@@ -27,10 +29,10 @@
         <li><a href="./pages/contacto.html">Contacto</a></li>
       </ul>
     </nav>
-  </header>
+  
   -->
     <!--inicio del navbarboostrap-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,80 +42,95 @@
           <a class="navbar-brand" href="#">Tienda River</a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="./index.html">Inicio</a>
+              
+              <a class="nav-link disabled" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <!--modificar href y el texto-->
-              <a class="nav-link" href="#">Link</a>
+              
+              <a class="mi-link nav-link" href="./pages/camperas.html">Camperas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./pages/entrenamiento.html">Entrenamiento</a>
+              <a class="mi-link nav-link" href="./pages/Futbol.html">Futbol</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./pages/entrenamiento.html">Entrenamiento</a>
+              <a class="mi-link nav-link" href="./pages/Entrenamiento.html">Entrenamiento</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./pages/entrenamiento.html">Entrenamiento</a>
+              <a class="mi-link nav-link" href="./pages/Contacto.html">Contacto</a>
             </li>
 
           </ul>
-
-
         </div>
-      </div>
     </nav>
+  </header>
+  <!--cierre del header-->
 
-    <!--cierre del header-->
 
+  <!-- MAIN -->
 
+  <main class="container-fluid">
+    <h2>Bienvenidos a Tienda River</h2>
+    <p>
+      Bienvenidos al sitio oficial de indumentaria del Club Atletico River Plate,en el mismo vas a encontrar
+      con todo lo que estas buscando.
+    </p>
 
-    <main class="container-fluid">
-      <h2>Bienvenidos a Tienda River</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
-        rem accusantium, sapiente maiores sequi voluptatum fugit doloribus illo
-        nesciunt minus molestias accusamus placeat a dolor, nisi totam velit
-        illum ratione?
-      </p>
-      
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/escudo.jpg" class="d-block w-15" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/portada-jugadores.webp" class="d-block w-100" alt="Portada de jugadores de River">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Compra nuestras camisetas originales</h5>
+            <p>La camiseta más grande, se tiene que transpirar.</p>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="./img/portada-descuento-somos-river.webp" class="d-block w-100"
+            alt="Portada de jugadores de River con descuento">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Obtené descuentos increibles</h5>
+            <p>Si sos socios del club obtenés 10% de descuento.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/portada-cuotas.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Compra en cuotas</h5>
+            <p>Comprá hasta en 3 cuotas sin interés.</p>
+          </div>
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
-        dolore explicabo deleniti, atque sunt quas delectus voluptatibus amet
-        animi iure obcaecati nisi itaque maiores tenetur fugit excepturi rem vel
-        beatae?
-      </section>
-    </main>
 
-    <aside></aside>
+  </main>
 
-    <footer class="container-fluid">
+  <!-- FOOTER -->
 
-      <div class="footer-links">
+  <footer class="container-fluid">
 
-        <h3>Siguenos</h3>
-        <!--
+    <div class="footer-links">
+
+      <h3>Seguinos en:</h3>
+      <!--
         <ul>
         
           <li><a href="https://es-la.facebook.com/"><img src="img/facebook.avif" width="30" height="30"></a></li>
@@ -122,41 +139,43 @@
           </li>
         </ul>
         -->
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <a href="https://es-la.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg></a>
-            </div>
-            <div class="col">
-              <a href="https://es-la.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg></a>
-            </div>
-            <div class="col">
-              <a href="https://es-la.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg></a>
-            </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="https:/www.facebook.com/riverplateoficial/"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg></a>
           </div>
-        </div>
+          <div class="col">
+            <a href="https://twitter.com/RiverPlate?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/"><svg
+                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter-filled" width="30"
+                height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M14.058 3.41c-1.807 .767 -2.995 2.453 -3.056 4.38l-.002 .182l-.243 -.023c-2.392 -.269 -4.498 -1.512 -5.944 -3.531a1 1 0 0 0 -1.685 .092l-.097 .186l-.049 .099c-.719 1.485 -1.19 3.29 -1.017 5.203l.03 .273c.283 2.263 1.5 4.215 3.779 5.679l.173 .107l-.081 .043c-1.315 .663 -2.518 .952 -3.827 .9c-1.056 -.04 -1.446 1.372 -.518 1.878c3.598 1.961 7.461 2.566 10.792 1.6c4.06 -1.18 7.152 -4.223 8.335 -8.433l.127 -.495c.238 -.993 .372 -2.006 .401 -3.024l.003 -.332l.393 -.779l.44 -.862l.214 -.434l.118 -.247c.265 -.565 .456 -1.033 .574 -1.43l.014 -.056l.008 -.018c.22 -.593 -.166 -1.358 -.941 -1.358l-.122 .007a.997 .997 0 0 0 -.231 .057l-.086 .038a7.46 7.46 0 0 1 -.88 .36l-.356 .115l-.271 .08l-.772 .214c-1.336 -1.118 -3.144 -1.254 -5.012 -.554l-.211 .084z"
+                  stroke-width="0" fill="currentColor" />
+              </svg></a>
+          </div>
+          <div class="col">
+            <a href="https://www.instagram.com/riverplate/?hl=es-la"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-instagram" width="30" height="30" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+              </svg>
 
-      </div>
-    </footer>
+          </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
-      </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
