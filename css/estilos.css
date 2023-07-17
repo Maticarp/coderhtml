@@ -9,7 +9,7 @@ h1 {
 }
 
 
-header nav{
+header nav {
     background-color: rgb(235, 25, 46) !important;
 }
 
@@ -18,9 +18,10 @@ header nav{
 header nav ul li {
     display: inline;
 }
+
 /* Para evitar que bootstrap tenga mas prioridad de estilos tengo que usar clases o id */
-header nav ul li .mi-link{
-    color:white;
+header nav ul li .mi-link {
+    color: white;
 }
 
 footer div ul li {
@@ -28,11 +29,19 @@ footer div ul li {
 }
 
 section {
-    display: inline-flex 
+    display: inline-flex
 }
 
 button {
-    background-color: rgb(237, 16, 16); border-radius: 35px;
-} 
-footer {background-color: black;}
-footer{background-color: black;}
+    background-color: rgb(237, 16, 16);
+    border-radius: 35px;
+}
+
+footer {
+    background-color: black;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+}
+
