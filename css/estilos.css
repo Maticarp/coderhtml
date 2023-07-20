@@ -19,7 +19,7 @@ header nav ul li {
     display: inline;
 }
 
-/* Para evitar que bootstrap tenga mas prioridad de estilos tengo que usar clases o id */
+
 header nav ul li .mi-link {
     color: white;
 }
