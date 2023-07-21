@@ -1,0 +1,68 @@
+/* Imports */
+/* Base */
+
+@import "../scss/base/variables";
+
+/* Sections*/
+
+@import "./sections/header";
+
+
+/* Componentes */
+
+@import url(https://fonts.google.com/specimen/Oswald);
+
+
+body {
+    background-color: #ffffff;
+
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+section div p {
+    color: black;
+}
+
+
+
+
+.mi-button {
+    background-color: darkred;
+    border-radius: 50px;
+
+}
+
+button {
+    background-color: darkred;
+    border-radius: 40px;
+}
+
+
+footer div ul li {
+    display: inline;
+}
+
+section {
+    display: inline-flex
+}
+
+
+
+footer {
+    background-color: black;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+}
+
+ul li {
+    color: white;
+}
