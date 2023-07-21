@@ -32,9 +32,23 @@ section div p {
   color: black;
 }
 
+<<<<<<< HEAD
 .mi-button {
   background-color: darkred;
   border-radius: 50px;
+=======
+
+header nav ul li .mi-link {
+    color: white;
+}
+
+footer div ul li {
+    display: inline;
+}
+
+section {
+    display: inline-flex
+>>>>>>> eecc2fed3e086368c3ae7e96e37ce7d5d0e99882
 }
 
 button {
