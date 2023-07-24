@@ -13,16 +13,21 @@
 @import url(https://fonts.google.com/specimen/Oswald);
 
 
+
+
+
 body {
     background-color: #ffffff;
 
 }
 
-h1 { @import url(https://fonts.google.com/specimen/Oswald);
+h1 {
+    @import url(https://fonts.google.com/specimen/Oswald);
     color: white;
 }
 
-p { @import url(https://fonts.google.com/specimen/Oswald);
+p {
+    @import url(https://fonts.google.com/specimen/Oswald);
     color: white;
 }
 
@@ -52,11 +57,14 @@ footer div ul li {
 section {
     display: inline-flex
 }
+h5 {
+    color: white(13, 13, 13); 
+}
 
 
 
 footer {
-    background-color: black;
+    background-color: black; 
 }
 
 main {
