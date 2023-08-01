@@ -1,0 +1,13 @@
+$breakpoints: (xs: 0, /* mobile */
+    sm: 576px, /* tablet */
+    md: 768px, /* laptop */
+    lg: 992px,  /* laptop l */
+    xl: 1200px); /* laptop large or big screens*/
+
+@mixin breakpoint($size) {
+    @if map-has-key($breakpoints, $size) {
+        @media (min-width: #{map-get($breakpoints, $size)}) {
+            @content;
+        }
+    }
+}

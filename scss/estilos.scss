@@ -2,15 +2,19 @@
 /* Base */
 
 @import "../scss/base/variables";
+@import "../scss/base/general";
+@import "../scss/base/breakpoints";
 
 /* Sections*/
 
 @import "./sections/header";
-
+@import "./sections/footer";
 
 /* Componentes */
 
 @import url(https://fonts.google.com/specimen/Oswald);
+@import url(https://fonts.google.com/specimen/Roboto+Slab);
+
 
 
 
@@ -19,7 +23,8 @@
 body {
     background-color: #ffffff;
 
-}
+} 
+h2 {@import url(https://fonts.google.com/specimen/Roboto+Slab);}
 
 h1 {
     @import url(https://fonts.google.com/specimen/Oswald);
@@ -31,12 +36,12 @@ p {
     color: white;
 }
 
+
 section div p {
     color: black;
 }
 
-
-
+    
 
 .mi-button {
     background-color: darkred;
@@ -62,7 +67,6 @@ h5 {
 }
 
 
-
 footer {
     background-color: black; 
 }
@@ -74,3 +78,4 @@ main {
 ul li {
     color: white;
 }
+ol li {color: black;}
