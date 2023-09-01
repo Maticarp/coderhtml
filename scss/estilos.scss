@@ -1,0 +1,81 @@
+/* Imports */
+/* Base */
+
+@import "../scss/base/variables";
+@import "../scss/base/general";
+@import "../scss/base/breakpoints";
+
+/* Sections*/
+
+@import "./sections/header";
+@import "./sections/footer";
+
+/* Componentes */
+
+@import url(https://fonts.google.com/specimen/Oswald);
+@import url(https://fonts.google.com/specimen/Roboto+Slab);
+
+
+
+
+
+
+body {
+    background-color: #ffffff;
+
+} 
+h2 {@import url(https://fonts.google.com/specimen/Roboto+Slab);}
+
+h1 {
+    @import url(https://fonts.google.com/specimen/Oswald);
+    color: white;
+}
+
+p {
+    @import url(https://fonts.google.com/specimen/Oswald);
+    color: white;
+}
+
+
+section div p {
+    color: black;
+}
+
+    
+
+.mi-button {
+    background-color: darkred;
+    border-radius: 50px;
+
+}
+
+button {
+    background-color: darkred;
+    border-radius: 40px;
+}
+
+
+footer div ul li {
+    display: inline;
+}
+
+section {
+    display: inline-flex
+}
+h5 {
+    color: white(13, 13, 13); 
+}
+
+
+footer {
+    background-color: black; 
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+}
+
+ul li {
+    color: white;
+}
+ol li {color: black;}
