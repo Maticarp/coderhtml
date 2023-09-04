@@ -7,9 +7,10 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height:100vh;
+background-color: black;}
 
-}
+
 
 h1 {
   color: white;
@@ -61,33 +62,6 @@ main {
 .accordion-button {
   background-color: rgb(235, 25, 46);
 }
-   form {
-        max-width: 300px; /* Ancho máximo del formulario */
-        margin: 0 auto; /* Centrar el formulario horizontalmente en el contenedor */
-        padding: 20px; /* Espaciado interior del formulario */
-    }
 
-    /* Estilo para las etiquetas */
-    label {
-        display: block; /* Hacer que las etiquetas ocupen una línea completa */
-        margin-bottom: 10px; /* Espacio entre etiquetas y campos de entrada */
-    }
 
-    /* Estilo para los campos de entrada */
-    input[type="text"],
-    input[type="password"] {
-        width: 100%; /* Los campos de entrada ocuparán todo el ancho del contenedor del formulario */
-        padding: 10px; /* Espaciado interior del campo de entrada */
-        margin-bottom: 15px; /* Espacio entre campos de entrada */
-        font-size: 16px; /* Tamaño de fuente */
-    }
-
-    /* Estilo para el botón */
-    button {
-        padding: 10px 20px; /* Espaciado interior del botón */
-        font-size: 16px; /* Tamaño de fuente del botón */
-        background-color: #007bff; /* Color de fondo del botón */
-        color: #fff; /* Color del texto del botón */
-        border: none; /* Sin borde */
-        cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
-    }
+    
